@@ -8,5 +8,5 @@ jobs:
         uses: pullreminders/label-when-approved-action@master
         env:
           APPROVALS: "1"
-          GITHUB_TOKEN: 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
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           ADD_LABEL: "Good to Go!"
